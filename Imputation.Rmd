@@ -1,0 +1,34 @@
+---
+title: "Imputation"
+author: "Sara DeLaurentis"
+date: "3/8/2023"
+output: html_document
+purpose: Run-through of http://www.stat.columbia.edu/~gelman/arm/missing.pdf on data imputation.
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+
+
+
+```
+
+## 
+
+
+
+```{r }
+
+
+
+```
+
+## 
+
+```{r }
+
+
+```
+
