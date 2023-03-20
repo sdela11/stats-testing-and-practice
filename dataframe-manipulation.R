@@ -3,10 +3,14 @@
 # Date: 2023-03-08
 # Purpose: Trials for how to structure my dataframe for Itasca data analysis.
 
+## LIBRARIES
 library(tidyverse)
 library(dplyr)
 library(stringr)
 library(glue)
+
+## DATAFRAME 1 ----------
+
 
 C1_sites <- rep(glue("C", "1"),6)
 C2_sites <- rep(glue("C", "2"),6)
@@ -25,4 +29,5 @@ df <- data.frame(site_id = sites,
                  rep = reps,
                  worm = worm)
 df
+
 
